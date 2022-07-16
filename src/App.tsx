@@ -1,6 +1,9 @@
-import React from "react";
-import "./App.css";
-
+import { AppContainer } from "./styles";
+import { Column } from "./Column";
 export const App = () => {
-  return null;
+  return (
+    <AppContainer>
+      <Column text="Todo:" />
+    </AppContainer>
+  );
 };
